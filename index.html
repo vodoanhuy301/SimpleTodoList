@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>SimpleTodoList</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container__todolist">
+      <div class="container__todolist-container">
+        <div class="todolist__tab-list">
+          <!-- <div class="todolist__tab">
+            <div class="tab-title">New 1</div>
+            <div class="tab-btn">X</div>
+          </div> -->
+        </div>
+        <ul class="todolist__list-items">
+          <!-- <li class="todolist__item">
+          <h3 class="todolist__item-title">- item 1</h3>
+          <div class="todolist__item-btn">X</div>
+        </li>
+        <li class="todolist__item">
+          <h3 class="todolist__item-title">- item 2</h3>
+          <div class="todolist__item-btn">X</div>
+        </li>
+        <li class="todolist__item">
+          <h3 class="todolist__item-title">- item 3</h3>
+          <div class="todolist__item-btn">X</div>
+        </li> -->
+
+        </ul>
+        <div class="container__todolist-btn">
+          <div class="todolist__btn" id="btn-add">
+            Add new item
+          </div>
+          <div class="todolist__btn" id="btn-addTab">
+            Add new tab
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay__add-item">
+      <h2 class="overlay__title">Add new item</h2>
+      <input type="text" id="item-title" class="overlay__add-input">
+      <div class="overlay__btn-container">
+        <div class="btn-overlay" id="add-item">Add</div>
+        <div class="btn-overlay" id="cancel-item">Cancel</div>
+      </div>
+    </div>
+    <div class="overlay__add-tab">
+      <h2 class="overlay__title">Add new tab</h2>
+      <input type="text" id="tab-title" class="overlay__add-input">
+      <div class="overlay__btn-container">
+        <div class="btn-overlay" id="add-tab">Add</div>
+        <div class="btn-overlay" id="cancel-tab">Cancel</div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
